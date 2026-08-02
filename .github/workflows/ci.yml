@@ -21,6 +21,5 @@ jobs:
 
       - name: Validate CSS
         run: |
-          sudo apt-get update
-          sudo apt-get install -y csslint
+          npm install -g csslint
           find css -name "*.css" -print0 | xargs -0 -n1 csslint || true
