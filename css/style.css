@@ -297,30 +297,38 @@ img {
   font-weight: bold;
   justify-content: center;
 }
-.btn-kampus button{
+.btn-kampus{
+  display: inline-block;
   width: 83px;
   height: 30px;
+  line-height: 30px;
   border-radius: 8px;
   cursor: pointer;
   background-color: #3055a3;
   color: #ffffff;
   font-size: 13px;
+  text-align: center;
+  text-decoration: none;
   border: none;
   margin-top: 0;
 }
-.btn-kampuslainnya button {
+.btn-kampuslainnya {
+  display: inline-block;
   width: 140px;
   height: 30px;
+  line-height: 30px;
   border-radius: 8px;
   cursor: pointer;
   background-color: #3055a3;
   color: #ffffff;
   font-size: 13px;
+  text-align: center;
+  text-decoration: none;
   border: none;
   margin-top: 0;
   margin-bottom: 15px;
 }
-.btn-kampuslainnya button:hover{
+.btn-kampuslainnya:hover{
  background-color: #152a57;
 }
 /* ---------------ARTIKEL----------------- */
